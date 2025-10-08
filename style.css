@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    background-image: url('bg-pattern-tile.jpg');
+}
+
+.card1 {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+  rotate: 10deg;
+  z-index: 5;
+}
+.card2 {
+        position: fixed;
+top: 100px;
+    left: 100px;
+  rotate: 15deg;
+  z-index: 4;
+}
+.card3 {
+        position: fixed;
+top: 100px;
+    left: 100px;
+  rotate: 5deg;
+  z-index: 3;
+}
+.card4 {
+        position: fixed;
+top: 100px;
+    left: 100px;
+  rotate: -10deg;
+  z-index: 2;
+}
+.card5 {    
+    position: fixed;
+top: 100px;
+    left: 100px;
+  z-index: 1;
+}
+
+.cards {
+    position: relative;
+    width: 220px;
+    height: 300px;
+    margin: 50px;
+}
+
+.babys {
+    position: relative;
+    width: 220px;
+    height: 300px;
+    margin: 50px;
+    left: 300px;
+    top: 100px;
+}
